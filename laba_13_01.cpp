@@ -254,7 +254,7 @@ int main () {
 		// Если случайно будет введено не число,
 		// а строчка (чтобы не было вечного цикла)
 		if (scanf("%d", &command) != 1) {
-        while(fgetc(stdin) != '\n');
+			while(fgetc(stdin) != '\n');
 		}
 
 		printf("\n");
